@@ -98,7 +98,6 @@ const Post = ({ post }) => {
 								className='size-10 rounded-full mr-3'
 							/>
 						</Link>
-
 						<div>
 							<Link to={`/profile/${post?.author?.username}`}>
 								<h3 className='font-semibold'>{post.author.name}</h3>
