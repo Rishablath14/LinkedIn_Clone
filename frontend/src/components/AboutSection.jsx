@@ -42,6 +42,7 @@ const AboutSection = ({ userData, isOwnProfile, onSave }) => {
 					)}
 				</>
 			)}
+			{!isOwnProfile && <p>{userData.about}</p>}
 		</div>
 	);
 };
